@@ -1,0 +1,200 @@
+body
+{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* Headings */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+/* Containers */
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+}
+
+/* Title Section */
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Download Button */
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+#features
+{
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.feature-box
+{
+    padding: 5% 0;
+}
+
+#features i
+{
+    color: #ef8172;
+    margin: 1rem;
+}
+
+#features i:hover
+{
+    color: #ff4c68; 
+}
+
+#features p
+{
+    color: #8f8f8f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    padding: 0 15%;
+}
+
+/* Testimonials Section */
+
+#testimonials
+{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.testimonials-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+/* Press Section */
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px; 
+}
+
+/* Pricing Section */
+
+#pricing
+{
+    padding: 100px;
+}
+
+.pricing-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.pricing-col
+{
+    padding: 3% 2%;
+}
+
+/* CTA(Call To Action) Section */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Footer Section */
+
+.footer-icons{
+    margin: 20px 20px;
+}
+
+#footer p{
+    color: #8f8f8f;
+}
+
+/* Some Media Queries to make website mobile friendly */
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;   
+        transform: rotate(0);
+    }
+}
